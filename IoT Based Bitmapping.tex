@@ -1,0 +1,199 @@
+\documentclass[12pt,a4paper,twoside]{report}
+
+% -------------------- PACKAGES --------------------
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
+
+\geometry{
+	a4paper,
+	left=3cm,
+	right=2cm,
+	top=2cm,
+	bottom=2cm
+}
+
+\onehalfspacing
+
+% -------------------- DOCUMENT START --------------------
+\begin{document}
+	
+	% -------------------- TITLE PAGE --------------------
+	\begin{titlepage}
+		\centering
+		
+	%	\includegraphics[width=0.2\textwidth]{rcoe-logo.png}\\[0.3cm]
+		
+		\textbf{\large Rizvi Education Society’s}\\
+		{\LARGE \textbf{Rizvi College of Engineering}}\\
+		{\large Bandra (W), Mumbai}\\[1cm]
+		
+		{\Large \textbf{Department of Computer Engineering}}\\[1.5cm]
+		
+		{\Huge \textbf{IoT Based Bit Mapping System}}\\[1cm]
+		
+		{\large Submitted by}\\[0.5cm]
+		
+		\textbf{MOHD HANIF (231P044)}\\
+		\textbf{MOHD QAYAM (231P038)}\\
+		\textbf{AQUIB ANSARI (231P037)}\\
+		\textbf{KHAN AYUB (231P074)}\\[1cm]
+		
+		Guide:\\
+		\textbf{Prof. Anupam Choudhary}\\[1cm]
+		
+		University of Mumbai\\
+		2025--2026
+		
+	\end{titlepage}
+	
+	% -------------------- CERTIFICATE --------------------
+	\chapter*{Certificate}
+	
+	This is to certify that the Mini Project entitled \textbf{“IoT Based Bit Mapping System”} is a bonafide work carried out by Mohd Hanif, Mohd Qayam, Aquib Ansari, and Khan Ayub under the guidance of Prof. Anupam Choudhary in partial fulfillment of the requirement for the award of Bachelor of Engineering in Computer Engineering.
+	
+	\vspace{2cm}
+	
+	\begin{tabular}{p{7cm} p{7cm}}
+		\underline{\hspace{5cm}} & \underline{\hspace{5cm}} \\
+		Project Guide & External Examiner \\
+	\end{tabular}
+	
+	\vspace{2cm}
+	
+	\begin{center}
+		Prof. Mohd. Juned \hspace{4cm} Dr. Varsha Shah\\
+		Head of Department \hspace{3cm} Principal
+	\end{center}
+	
+	% -------------------- ABSTRACT --------------------
+	\chapter*{Abstract}
+	
+	The rapid growth of Internet of Things (IoT) technology has enabled smart communication between devices. This project presents an IoT-based Bit Mapping system that demonstrates how binary data can be represented and visualized using connected devices. The system uses a microcontroller to process binary input and map each bit to LEDs. The data is also transmitted to an IoT platform for real-time monitoring. The project highlights the integration of digital electronics with IoT and provides a practical approach for understanding binary systems.
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	% -------------------- CHAPTER 1 --------------------
+	\chapter{Introduction}
+	
+	IoT enables devices to communicate and exchange data over the internet. Bit mapping is a concept where data is represented using binary values. This project combines both concepts to create an interactive system.
+	
+	\section{Problem Statement}
+	Traditional methods lack visualization of binary systems.
+	
+	\section{Objectives}
+	\begin{itemize}
+		\item Develop IoT-based bit mapping system
+		\item Visualize binary data
+		\item Enable real-time monitoring
+	\end{itemize}
+	
+	\section{Scope}
+	Educational and IoT applications.
+	
+	\section{Limitations}
+	Internet dependency and limited scale.
+	
+	% -------------------- CHAPTER 2 --------------------
+	\chapter{Review of Literature}
+	
+	\section{Paper 1}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|p{4cm}|p{9cm}|}
+			\hline
+			Attribute & Details \\
+			\hline
+			Title & IoT Smart Monitoring \\
+			Methodology & Sensors + Cloud \\
+			Findings & Real-time monitoring \\
+			\hline
+		\end{tabular}
+		\caption{Summary of Paper 1}
+	\end{table}
+	
+	\section{Paper 2}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|p{4cm}|p{9cm}|}
+			\hline
+			Attribute & Details \\
+			\hline
+			Title & Bit Mapping Techniques \\
+			Methodology & Binary Representation \\
+			Findings & Efficient processing \\
+			\hline
+		\end{tabular}
+		\caption{Summary of Paper 2}
+	\end{table}
+	
+	% -------------------- CHAPTER 3 --------------------
+	\chapter{Present Investigation}
+	
+	\section{System Overview}
+	The system processes binary input and displays output using LEDs and IoT.
+	
+	\section{Hardware}
+	Arduino, LEDs, Resistors
+	
+	\section{Methodology}
+	\begin{enumerate}
+		\item Input binary
+		\item Process using microcontroller
+		\item Display output
+	\end{enumerate}
+	
+	\section{Features}
+	\begin{itemize}
+		\item Real-time monitoring
+		\item Easy interface
+		\item Low cost
+	\end{itemize}
+	
+	% -------------------- CHAPTER 4 --------------------
+	\chapter{Results and Discussion}
+	
+	The system successfully mapped binary data to LEDs and displayed real-time output on IoT platform.
+	
+	\section{Findings}
+	\begin{itemize}
+		\item Accurate output
+		\item Stable performance
+	\end{itemize}
+	
+	\section{Future Scope}
+	\begin{itemize}
+		\item Mobile integration
+		\item Advanced IoT systems
+	\end{itemize}
+	
+	% -------------------- CHAPTER 5 --------------------
+	\chapter{Conclusion}
+	
+	The project demonstrates IoT-based bit mapping system successfully. It is useful for educational purposes and can be extended further.
+	
+	% -------------------- REFERENCES --------------------
+	\chapter*{References}
+	
+	\begin{enumerate}
+		\item K. Ashton, Internet of Things, 2009.
+		\item A. Bahga, IoT Handbook, 2014.
+		\item Arduino Documentation, arduino.cc
+	\end{enumerate}
+	
+	% -------------------- ACKNOWLEDGEMENT --------------------
+	\chapter*{Acknowledgement}
+	
+	I am profoundly grateful to Prof. Anupam Choudhary for his expert guidance and continuous encouragement.  
+	I would like to express my deepest appreciation towards Dr. Varsha Shah, Principal RCOE, Mumbai, and Prof. Mohd. Juned, Head of Department.  
+	Finally, I express my sincere gratitude to all staff members.
+	
+\end{document}
